@@ -1,8 +1,10 @@
 package com.jyothi.oslobysykkel.models;
 
+import javax.xml.bind.annotation.XmlRootElement;
 import java.util.Date;
 import java.util.List;
 
+@XmlRootElement
 public class StationMaster {
 
     private List<Station> stations;
